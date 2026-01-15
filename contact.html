@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marjuk Islam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body class="neon-bg">
+    <nav class="mica-navbar">
+        <div class="nav-container">
+            <div class="signature-box">
+                <span class="sig-en lang-en">Marjuk Islam</span>
+                <span class="sig-bn lang-bn" style="display:none;">মারজুক ইসলাম</span>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()"><span class="material-symbols-outlined">menu</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active lang-en">Home</a><a href="index.html" class="lang-bn" style="display:none;">হোম</a></li>
+                <li><a href="about.html" class="lang-en">About</a><a href="about.html" class="lang-bn" style="display:none;">সম্পর্কে</a></li>
+                <li><a href="skills.html" class="lang-en">Skills</a><a href="skills.html" class="lang-bn" style="display:none;">দক্ষতা</a></li>
+                <li><a href="projects.html" class="lang-en">Projects</a><a href="projects.html" class="lang-bn" style="display:none;">প্রজেক্ট</a></li>
+                <li><a href="contact.html" class="lang-en">Contact</a><a href="contact.html" class="lang-bn" style="display:none;">যোগাযোগ</a></li>
+            </ul>
+            <div class="controls">
+                <button id="langSwitch" onclick="switchLanguage()">BN</button>
+                <button id="theme-btn" onclick="toggleTheme()">
+    <span class="material-symbols-outlined">light_mode</span>
+</button>
+            </div>
+        </div>
+    </nav>
+
+<main class="main-content">
+    <section class="fade-in">
+        <h1 class="modern-font lang-en">Get In Touch</h1>
+        <h1 class="special-bn lang-bn" style="display:none;">যোগাযোগ করুন</h1>
+
+        <div class="card-grid">
+            <div class="glass-card">
+                <h3 class="modern-font">📍 Our Location</h3>
+                <div class="map-container" style="margin-top: 15px; border-radius: 15px; overflow: hidden; height: 250px;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.941656885361!2d89.36398907515343!3d24.848719977937415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc54e443f1e94b%3A0x6b806f1571f0084a!2sKhandar%2C%20Bogura!5e0!3m2!1sen!2sbd!4v1705140000000!5m2!1sen!2sbd" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+                <p style="margin-top: 10px;">📍 Khandar (Near Passport Office), Bogura</p>
+            </div>
+
+            <div class="glass-card">
+                <h3 class="modern-font">📩 Send Message</h3>
+                <form action="https://formspree.io/f/your-id" method="POST" style="display: flex; flex-direction: column; gap: 12px; margin-top: 15px;">
+                    <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; border-radius: 8px; border: 1px solid var(--mica); background: rgba(255,255,255,0.05); color: white;">
+                    <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; border-radius: 8px; border: 1px solid var(--mica); background: rgba(255,255,255,0.05); color: white;">
+                    <textarea name="message" placeholder="Message" rows="4" required style="padding: 10px; border-radius: 8px; border: 1px solid var(--mica); background: rgba(255,255,255,0.05); color: white;"></textarea>
+                    <button type="submit" class="btn-link" style="border: none; cursor: pointer;">Send Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <section class="fade-in">
+        <h1 class="modern-font lang-en">Contact Details</h1>
+        <h1 class="special-bn lang-bn" style="display:none;">যোগাযোগের ঠিকানা</h1>
+
+        <div class="card-grid">
+            <div class="glass-card">
+                <h3 class="modern-font">Locations</h3>
+                <p>📍 Khandar (Near Passport Office), Bogura</p>
+                <p>📍 Police Lines School & College Area</p>
+            </div>
+            <div class="glass-card">
+                <h3 class="modern-font">Direct Contact</h3>
+                <p>📞 Phone: +880 1718-429982</p>
+                <p>📧 Email: saiful.subhacor77@gmail.com</p>
+                <p>🌐 Social: Facebook/MarjukIslam</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="mica-footer">
+    <div class="footer-content">
+        <div class="footer-icons">
+            <a href="https://www.youtube.com/@Sabbib_Tech" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+            </a>
+            <a href="https://facebook.com/profile.php?id=100089990937274" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            </a>
+            <a href="https://github.com/sabb909" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+            </a>
+        </div>
+        
+        <div class="footer-text" style="margin-top: 20px;">
+            <p class="lang-en" style="font-size: 0.9rem; opacity: 0.8;">
+                © 2026 <strong>Marjuk Islam</strong> | All Rights Reserved
+            </p>
+            <p class="lang-bn" style="display:none; font-size: 0.9rem; opacity: 0.8;">
+                © ২০২৬ <strong>মারজুক ইসলাম</strong> | সর্বস্বত্ব সংরক্ষিত
+            </p>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
